@@ -85,7 +85,7 @@ body {
     border-radius: 20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 700px) {
     .nav ul {
       text-align: right;
     }
@@ -97,9 +97,9 @@ body {
       text-align: left;
     }
   
-    .single-service {
+    /* .single-service {
       width: 50%;
       float: left;
-    }
+    } */
   }
   
