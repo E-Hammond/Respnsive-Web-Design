@@ -28,6 +28,7 @@ body {
 
 .nav ul li:hover {
   background-color: black;
+  cursor: pointer;
 }
 
 .image-area {
