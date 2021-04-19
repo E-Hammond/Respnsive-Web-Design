@@ -8,22 +8,26 @@ body {
 }
 
 .nav {
-  background-color: rgb(226, 93, 45);
+  background-color: rgb(238, 107, 59);
   color: white;
 }
 
 .nav ul {
-  margin: 0px;
-  padding: 0px;
+  text-align: center;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav ul li {
   padding: 16px;
   text-align: center;
   font-size: 1.2rem;
-  border-bottom: 1px solid black;
-  transition: background-color 0.2s;
+  display: inline-block;
+  border-bottom: 0px;
+  border-left: 1px solid black;
+  text-align: center;
+  background-color: rgb(238, 107, 59);
 }
 
 .nav ul li:hover {
@@ -38,6 +42,11 @@ body {
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+.services-centered-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .centered-container {
@@ -103,22 +112,37 @@ span{
   color: white;
 }
 
-/* @media only screen and (min-width: 768px) {
-    .nav ul {
-      text-align: right;
-    }
-  
-    .nav ul li {
-      display: inline-block;
-      border-bottom: 0px;
-      border-left: 1px solid black;
-      text-align: left;
-    } */
-  
-    /* .single-service { */
-      /* width: 50%;
-      float: left;
-    } */
-  /* } */
+
+ 
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav ul li{
+    display: block;
+    background-color: rgb(77, 73, 73);
+  }
+
+ .services-centered-container{
+   display: grid;
+   grid-template-columns: 1fr;
+ }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ .services-centered-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+  }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ .services-centered-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+}
+
   
   
