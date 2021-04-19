@@ -85,7 +85,25 @@ body {
     border-radius: 20px;
 }
 
-@media screen and (min-width: 700px) {
+.form-container{
+  float: right;
+  margin-top: -180px;
+  margin-right: 10px;
+}
+
+input{
+  padding: 3px;
+}
+
+#Username{
+  margin-right: 30px;
+}
+
+span{
+  color: white;
+}
+
+/* @media only screen and (min-width: 768px) {
     .nav ul {
       text-align: right;
     }
@@ -95,11 +113,12 @@ body {
       border-bottom: 0px;
       border-left: 1px solid black;
       text-align: left;
-    }
+    } */
   
     /* .single-service { */
       /* width: 50%;
       float: left;
     } */
-  }
+  /* } */
+  
   
