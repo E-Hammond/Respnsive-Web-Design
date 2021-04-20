@@ -47,6 +47,15 @@ body {
 .services-centered-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 1px solid tomato;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 10px 10px rgb(250, 144, 125);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding: 40px;
+  background-color: white;
+  /* transition: 4s; */
 }
 
 .centered-container {
@@ -83,6 +92,10 @@ body {
     width: 150px;
     height: 150px;
     padding: 10px;
+}
+
+h4{
+  color: gray;
 }
 
 .content-img:hover{
